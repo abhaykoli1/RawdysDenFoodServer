@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+python-dotenv
+mongoengine
+jinja2
+cloudinary
+itsdangerous
+pyjwt
+bcrypt==3.2.0
+passlib==1.7.4
+python-multipart
+email-validator
+boto3
+slugify
+unicode-slugify
+# pip install fastapi mongoengine pydantic email-validator uvicorn
