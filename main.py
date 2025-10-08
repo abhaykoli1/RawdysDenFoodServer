@@ -42,9 +42,9 @@ app.mount("/uploads", StaticFiles(directory="uploads"), name="uploads")
 
 
 # app.include_router(uploadImagesRoutes.router, tags=["image Upload"])
-app.include_router(imageuploadroutes.router, tags=["image Upload"])
-app.include_router(itemsRoute.router, tags=["items"])
-# app.include_router(orderRoutes.router, tags=["order"])
+# app.include_router(imageuploadroutes.router, tags=["image Upload"])
+app.include_router(itemsRoute.router, tags=["Items, Categories & Orders"])
+
 
 
 if __name__ == "__main__":
